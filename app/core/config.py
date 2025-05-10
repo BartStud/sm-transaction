@@ -11,14 +11,14 @@ KEYCLOAK_CLIENT_PUBLIC_KEY = os.getenv(
 )
 
 KEYCLOAK_HOST = os.getenv("KEYCLOAK_HOST", "http://sm_keycloak:8080")
-KEYCLOAK_REALM = os.getenv("KEYCLOAK_REALM", "paw_connect")
+KEYCLOAK_REALM = os.getenv("KEYCLOAK_REALM", "school_money")
 KEYCLOAK_CLIENT_ID = os.getenv("KEYCLOAK_CLIENT_ID", "admin-cli")
 KEYCLOAK_CLIENT_SECRET_KEY = os.getenv(
     "KEYCLOAK_CLIENT_SECRET_KEY", "wSVxDu1FL5SIbdDlqEpr9wohnB8bxYO7"
 )
 
 
-MINIO_ENDPOINT = os.getenv("MINIO_HOST", "sm_minio:9000")
+MINIO_ENDPOINT = os.getenv("MINIO_HOST", "smminio:9000")
 MINIO_ACCESS_KEY = os.getenv("MINIO_ACCESS_KEY", "minio_access_key")
 MINIO_SECRET_KEY = os.getenv("MINIO_SECRET_KEY", "minio_secret_key")
 MINIO_BUCKET = os.getenv("MINIO_BUCKET", "user-media")
